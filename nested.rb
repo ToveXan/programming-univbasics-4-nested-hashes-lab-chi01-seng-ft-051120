@@ -16,7 +16,7 @@ def hopper
       }
     }
   
-  return programmer_hash.assoc(:grace_hopper)
+  return programmer_hash.fetch(:grace_hopper)
   
 end
 
