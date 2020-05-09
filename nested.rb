@@ -15,7 +15,8 @@ def hopper
         :languages => ["C"]
       }
     }
-  programmer_hash.assoc
+  
+  return programmer_hash.assoc(:grace_hopper)
   
 end
 
